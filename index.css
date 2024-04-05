@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+body{
+    overflow: hidden;
+}
+header {
+    left: 244px;
+    width: 1350px;
+    height: 70px;
+    background-color: #e9c79b;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+}
+
+.sub {
+    top: 5px;
+    font-size: 15px;
+    left: 30px;
+}
+
+.titl {
+    top: 10px;
+    font-size: 20px;
+    left: 30px;
+
+}
+
+.issn {
+    left: 30px;
+    top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.options {
+    left: 80%;
+    top: -85px;
+}
+
+input {
+    width: 50px;
+    left: -110px;
+    top: 30px;
+}
+
+.options img {
+    left: 160px;
+    top: -40px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.lang {
+    border: 2px solid rgb(49, 41, 41);
+    max-width: 100px;
+    height: 30px;
+    left: 960px;
+    top: -35px;
+}
+
+.lang img {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 20px;
+}
+
+.lang p {
+    left: 30px;
+    top: 4px;
+    width: 30px;
+}
+
+.arrow img {
+    width: 12px;
+    left: 1040px;
+    top: -57px;
+}
+
+.not {
+    color: white;
+    left: 1267px;
+    top: -170px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    border: red solid;
+    border-radius: 50%;
+    background-color: red;
+}
+.not p{
+    left: 2px;
+}
+.menu{
+    top: -197.5px;
+    left: -244px;
+    width: 244px;
+    height: 1400px;
+    background-color: white;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+
+}
+.menuTitle{
+    height: 70px;
+    background: linear-gradient(to top, #ef7e3c, #feaf52);
+}
+.menuTitle p{
+    color: white;
+    font-size: 35px;
+    top: 15px;
+    left: 25px;
+}
+.menu img{
+    width: 244px;
+}  
+.menu ul li p{
+    z-index: 2;
+    left: 20px;
+    font-size: 20px;
+    margin: 10px;
+}
+.work {
+    left: 10px;
+}
+.tag{
+    position: absolute;
+    z-index: 1;
+    top: -11px;
+    left: -5px;
+    width: 240px;
+    height: 44px;
+    background-color: #ffe7c7;
+}
+.space{
+    position: absolute;
+    background: linear-gradient(to top, #ef7e3c, #feaf52);
+    left: -10px;
+    top: -11px;
+    width: 10px;
+    height: 44px;
+}
+.cont p{
+    left: 300px;
+    top: 20px;
+    color: #ef7e3c;
+    font-size: 22px;
+}
+.cont img{
+    width: 800px;
+    left: 300px;
+    top: 50px;
+    border-radius: 5px;
+}
+.icons{
+    left: 1190px;
+    top: -480px;
+    color: white;
+}
+.icons img{
+    top: 7px;
+    left: 5px;
+    width: 20px;
+}
+.icons p{
+    font-size: 25px;
+    left: 37px;
+    top: -20px;
+}
+.dowl{
+    cursor: pointer;
+    background-color:#ef7e3c;
+    height: 40px;
+    border-radius: 5px;
+    width: 150px;
+}
+.star{
+    cursor: pointer;
+    background-color: #ef7e3c;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    left: 170px;
+    top: -40px;
+}
+.star img{
+    left: 15px;
+}
+.doi{
+    cursor: pointer;
+    background-color: #ef7e3c;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    left: 240px;
+    top: -80px;
+}
+.doi img{
+    left: -3px;
+    left: 12px;
+    width: 30px;
+}
+.writ p{
+    color: #ef7e3c;
+    font-size: 20px;
+    top: -75px;
+    left: -7px;
+}
+.box{
+    color: rgb(70, 65, 65);
+
+    width: 320px;
+    height: 440px;
+    border: 2px solid gray;
+    left: 1150px;
+    top: -545px;
+}
+.boxTitle{
+    width:317px;
+    height: 50px;
+    border-bottom: 2px solid gray;
+    background-color: #ffebd0;
+}
+.boxTitle p{
+    left: 15px;
+    top: 5px;
+    font-size: 30px;
+}
+.typs ul li{
+    top: 15px;
+    left: 15px;
+    list-style-type: none;
+}
+.aut ul li{
+    font-size: 20px;
+    top: 35px;
+    left: 15px;
+    list-style-type: none;
+}
+.name li{
+    top: 40px;
+}
+.univers ul li{
+    top: 65px;
+    left: 15px;
+    list-style-type: none;
+
+}
+.univers ul li p{
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+}
+.bar{
+    width: 170px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: grey;
+    rotate: 90deg;
+    left: 225px;
+    top: -225px;
+}
+.barg{
+    width: 250px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: rgb(176, 176, 176);
+    rotate: 90deg;
+    left: 185px;
+    z-index: -1;
+    top: -85px;
+}

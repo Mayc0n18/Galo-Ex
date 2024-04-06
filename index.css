@@ -443,7 +443,8 @@ input {
     z-index: -3;
     border-radius: 2px;
     background-color: #ffe7c7;
-    top: -55px;
+    top: 35px;
+    left: 50px;
 }
 
 .topic {
@@ -702,4 +703,26 @@ input {
     top: 8px;
     font-weight: 400;
 }
- 
+.comentI{
+    display: none;
+    margin-bottom: 25px;
+}
+
+.comentI h1 {
+    top: 15px;
+    left: 25px;
+    color: #ef7e3c;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.comentI h2 {
+    top: 15px;
+    margin-bottom: 25px;
+    left: 25px;
+    color: rgb(71, 71, 71);
+    font-size: 15px;
+}
+.comentI p{
+    left: 25px;
+}

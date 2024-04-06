@@ -3,12 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     position: relative;
-    font-family:Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-body{
+
+body {
     overflow-x: hidden;
 }
+
 header {
     left: 244px;
     width: 1680px;
@@ -31,6 +33,9 @@ header ul li {
     font-size: 15px;
     left: 30px;
 }
+
+.subDisc {}
+
 
 .titl {
     top: 10px;
@@ -102,13 +107,16 @@ input {
     border-radius: 50%;
     background-color: red;
 }
-.not p{
+
+.not p {
     left: 2px;
     top: -1px;
 }
-.menu{
+
+.menu {
     position: fixed;
-    top: 0; /* Define a posição inicial do menu no topo da tela */
+    top: 0;
+    /* Define a posição inicial do menu no topo da tela */
     left: 0;
     width: 244px;
     height: 1400px;
@@ -117,29 +125,34 @@ input {
 
 }
 
-.menuTitle{
+.menuTitle {
     height: 70px;
     background: linear-gradient(to top, #ef7e3c, #feaf52);
 }
-.menuTitle p{
+
+.menuTitle p {
     color: white;
     font-size: 35px;
     top: 15px;
     left: 25px;
 }
-.menu img{
+
+.menu img {
     width: 244px;
-}  
-.menu ul li p{
+}
+
+.menu ul li p {
     z-index: 2;
     left: 20px;
     font-size: 20px;
     margin: 10px;
 }
+
 .work {
     left: 10px;
 }
-.tag{
+
+.tag {
     position: absolute;
     z-index: 1;
     top: -11px;
@@ -148,7 +161,8 @@ input {
     height: 44px;
     background-color: #ffe7c7;
 }
-.space{
+
+.space {
     position: absolute;
     background: linear-gradient(to top, #ef7e3c, #feaf52);
     left: -10px;
@@ -156,41 +170,49 @@ input {
     width: 10px;
     height: 44px;
 }
-.cont p{
-    left: 300px;
-    top: 20px;
+
+.cont p {
+    left: 560px;
+    top: 23px;
     color: #ef7e3c;
-    font-size: 22px;
+    font-size: 35px;
 }
-.cont img{
+
+.cont img {
     width: 1000px;
-    left: 300px;
+    left: 555px;
     top: 50px;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
-.icons{
+
+.icons {
     left: 1540px;
     top: -585px;
     color: white;
 }
-.icons img{
+
+.icons img {
     top: 7px;
     left: 5px;
     width: 20px;
 }
-.icons p{
+
+.icons p {
     font-size: 25px;
     left: 37px;
     top: -20px;
 }
-.dowl{
+
+.dowl {
     cursor: pointer;
-    background-color:#ef7e3c;
+    background-color: #ef7e3c;
     height: 40px;
     border-radius: 5px;
     width: 150px;
 }
-.star{
+
+.star {
     cursor: pointer;
     background-color: #ef7e3c;
     height: 40px;
@@ -199,10 +221,12 @@ input {
     left: 170px;
     top: -40px;
 }
-.star img{
+
+.star img {
     left: 15px;
 }
-.doi{
+
+.doi {
     cursor: pointer;
     background-color: #ef7e3c;
     height: 40px;
@@ -211,18 +235,21 @@ input {
     left: 240px;
     top: -80px;
 }
-.doi img{
+
+.doi img {
     left: -3px;
     left: 12px;
     width: 30px;
 }
-.writ p{
+
+.writ p {
     color: #ef7e3c;
     font-size: 18px;
     top: -75px;
     left: 2px;
 }
-.box{
+
+.box {
     color: rgb(70, 65, 65);
 
     width: 320px;
@@ -231,45 +258,53 @@ input {
     left: 1470px;
     top: -650px;
 }
-.boxTitle{
-    width:317px;
+
+.boxTitle {
+    width: 317px;
     height: 50px;
     border-bottom: 2px solid gray;
     background-color: #ffebd0;
 }
-.boxTitle p{
+
+.boxTitle p {
     left: 15px;
     top: 5px;
     font-size: 30px;
 }
-.typs ul li{
+
+.typs ul li {
     top: 15px;
     left: 15px;
     list-style-type: none;
     font-size: 17px;
 }
-.aut ul li{
+
+.aut ul li {
     font-size: 22px;
     top: 35px;
     left: 10px;
     list-style-type: none;
     margin: 5px;
 }
-.name li{
+
+.name li {
     top: 40px;
 }
-.univers ul li{
+
+.univers ul li {
     top: 67px;
     left: 10px;
     list-style-type: none;
 
 }
-.univers ul li p{
+
+.univers ul li p {
     color: rgb(150, 150, 150);
     font-size: 15px;
     margin: 5px;
 }
-.bar{
+
+.bar {
     width: 170px;
     height: 3px;
     border-radius: 2px;
@@ -278,7 +313,8 @@ input {
     left: 225px;
     top: -285px;
 }
-.barg{
+
+.barg {
     width: 250px;
     height: 3px;
     border-radius: 2px;
@@ -288,49 +324,56 @@ input {
     z-index: -1;
     top: -85px;
 }
-.textBox{
+
+.textBox {
     top: -600px;
     left: 300px;
-    width:1000px;
+    width: 1000px;
     height: 160px;
     border: 2px solid #ffe7c7;
 }
-.textTitle{
-    left: -2px;
-    width: 1000px;
+
+.textTitle {
+    width: 997px;
     background-color: #e9c79b;
     height: 50px;
     border-bottom: 2px solid #ffe7c7;
 }
-.textTitle h1{
+
+.textTitle h1 {
+    color: rgb(79, 79, 79);
     font-size: 25px;
     top: 10px;
     left: 10px;
-    
+
 }
 
-.text{
+.text {
     left: 13px;
     top: -20px;
     margin-top: 35px;
     max-height: 90px;
-    overflow: hidden;
     position: relative;
     transition: max-height 0.4s ease;
 }
 
 
-#overflow{
+#overflow {
+    z-index: 4;
     display: none;
     position: absolute;
-    bottom: 0;
+    bottom: -702px;
     left: 0;
     width: 100%;
-    height: 30px;
+    height: 700px;
+}
+
+#overflow p {
+    left: 10px;
 }
 
 
-.toggle{
+.toggle {
     background: transparent;
     border: none;
     left: 280px;
@@ -340,3 +383,323 @@ input {
     cursor: pointer;
 }
 
+.disc {
+    bottom: 550px;
+    left: 300px;
+    width: 1000px;
+    height: 880px;
+    border-top: 2px solid #ffe7c7;
+    border-left: 2px solid #ffe7c7;
+    border-right: 2px solid #ffe7c7;
+
+}
+
+.discTitle {
+    width: 997px;
+    background-color: #e9c79b;
+    height: 50px;
+    border-bottom: 2px solid #ffe7c7;
+}
+
+.discTitle h1 {
+    color: rgb(79, 79, 79);
+    font-size: 25px;
+    top: 10px;
+    left: 10px;
+}
+
+#discText p {
+    color: #ef7e3c;
+    text-align: center;
+    top: 10px;
+    font-size: 21px;
+}
+
+.discIcon ul li {
+    list-style-type: none;
+    display: inline;
+    left: 340px;
+    top: 30px;
+
+}
+
+.discIcon img {
+    width: 45px;
+    margin: 30px;
+}
+
+.discSub {
+    top: 45px;
+    text-align: center;
+}
+
+.discSub .p {
+    font-size: 15px;
+}
+
+.discBar {
+    width: 890px;
+    height: 2px;
+    z-index: -3;
+    border-radius: 2px;
+    background-color: #ffe7c7;
+    top: -55px;
+}
+
+.topic {
+    background: linear-gradient(to top, #ef7e3c, #feaf52);
+    width: 200px;
+    height: 40px;
+    left: 390px;
+    top: 55px;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.topic p {
+    top: -8px;
+    text-align: center;
+}
+
+.coment {
+    width: 890px;
+    height: 200px;
+    box-shadow: -2px -2px 1px #ffe7c7, 2px -2px 1px #ffe7c7, -2px 2px 1px #ffe7c7, 2px 2px 1px #ffe7c7;
+
+}
+
+.coment1 {
+    left: 50px;
+    top: 100px;
+}
+
+.coment1 h1 {
+    top: 15px;
+    left: 25px;
+    color: #ef7e3c;
+    font-size: 20px;
+}
+
+.coment1 h2 {
+    top: 15px;
+
+    left: 25px;
+    color: rgb(71, 71, 71);
+    font-size: 15px;
+}
+
+.comentText p {
+    top: 35px;
+    left: 25px;
+}
+
+.bot ul li {
+
+    list-style-type: none;
+}
+
+.bot img {
+    left: 45px;
+    top: 55px;
+    width: 25px;
+}
+
+.bot ul li p {
+    left: 90px;
+    top: 30px;
+}
+
+.dot {
+
+    width: 5px;
+    height: 5px;
+    background-color: #ef7e3c;
+    border-radius: 50%;
+}
+
+.dot1,
+.dot2,
+.dot3 {
+    top: 80px;
+    left: 25px;
+    margin: 2px;
+}
+
+.coment2 {
+    top: 120px;
+    left: 50px;
+}
+
+.coment2 h1 {
+    top: 15px;
+    left: 25px;
+    color: #ef7e3c;
+    font-size: 20px;
+}
+
+.coment2 h2 {
+    top: 15px;
+
+    left: 25px;
+    color: rgb(71, 71, 71);
+    font-size: 15px;
+}
+
+.coment2Text p {
+    top: 35px;
+    left: 25px;
+}
+
+.bot2 ul li {
+    list-style-type: none;
+}
+
+.bot2 img {
+    left: 45px;
+    top: 55px;
+    width: 25px;
+}
+
+.bot2 ul li p {
+    left: 90px;
+    top: 30px;
+}
+
+.dot4,
+.dot5,
+.dot6 {
+    top: 80px;
+    left: 25px;
+    margin: 2px;
+}
+
+.pass {
+    display: none;
+}
+
+.passWrit {
+    text-align: center;
+    color: grey;
+    top: 15px;
+}
+
+.passAs {
+    left: 45px;
+    top: 40px;
+}
+
+.passAs p {
+    color: #ef7e3c;
+    font-weight: 600;
+}
+
+.pasSquad {
+    width: 890px;
+    height: 50px;
+    left: 45px;
+    border: solid #bcab94 1px;
+    border-radius: 3px;
+    top: 40px;
+
+}
+
+.pasSquad p {
+    color: grey;
+    top: 15px;
+    left: 25px;
+}
+
+.coment1 {
+    margin-top: -10px;
+
+}
+
+.cont2 {
+    left: 45px;
+    top: 60px;
+}
+
+.cont2 p {
+    font-size: 18px;
+    color: #ef7e3c;
+    font-weight: 600;
+}
+
+.contSquad {
+    width: 890px;
+    height: 120px;
+    left: 45px;
+    border: solid #bcab94 1px;
+    border-radius: 3px;
+    top: 60px;
+}
+
+.full {
+    width: 670px;
+    height: 30px;
+    left: 45px;
+    top: 30px;
+    background-color: rgba(145, 132, 115, 0.3);
+    border-top: 1.5px solid #6e614f;
+    border-radius: 2px;
+
+}
+
+.send {
+    width: 220px;
+    height: 30px;
+    background: linear-gradient(to top, #ef7e3c, #feaf52);
+    left: 715px;
+    border-bottom-right-radius: 4px;
+}
+
+.send p {
+    color: white;
+    text-align: center;
+    top: 5px;
+}
+
+.last {
+    display: none;
+    margin-bottom: 50px;
+}
+
+.lastTitle {
+    color: #ef7e3c;
+    font-size: 10px;
+    top: 15px;
+    text-align: center;
+}
+
+.lastMens {
+    top: 35px;
+    color: grey;
+    text-align: center;
+
+}
+
+.lastDesc {
+    color: #ef7e3c;
+    text-decoration: underline;
+    top: 55px;
+    text-align: center;
+}
+
+.create {
+    width: 220px;
+    height: 35px;
+    background: linear-gradient(to top, #ef7e3c, #feaf52);
+    top: 125px;
+    z-index: 4;
+    left: 395px;
+    border-radius: 4px;
+}
+
+.create p {
+    text-align: center;
+    color: white;
+    top: 8px;
+    font-weight: 400;
+}
+ 

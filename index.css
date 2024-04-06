@@ -7,11 +7,11 @@
     
 }
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 header {
     left: 244px;
-    width: 1350px;
+    width: 1680px;
     height: 70px;
     background-color: #e9c79b;
 }
@@ -47,7 +47,7 @@ header ul li {
 }
 
 .options {
-    left: 80%;
+    left: 83%;
     top: -85px;
 }
 
@@ -58,7 +58,7 @@ input {
 }
 
 .options img {
-    left: 160px;
+    left: 165px;
     top: -40px;
     width: 35px;
     border-radius: 50%;
@@ -68,7 +68,7 @@ input {
     border: 2px solid rgb(49, 41, 41);
     max-width: 100px;
     height: 30px;
-    left: 960px;
+    left: 1240px;
     top: -35px;
 }
 
@@ -87,13 +87,13 @@ input {
 
 .arrow img {
     width: 12px;
-    left: 1040px;
+    left: 1320px;
     top: -57px;
 }
 
 .not {
     color: white;
-    left: 1267px;
+    left: 1585px;
     top: -170px;
     width: 15px;
     height: 15px;
@@ -104,16 +104,19 @@ input {
 }
 .not p{
     left: 2px;
+    top: -1px;
 }
 .menu{
-    top: -197.5px;
-    left: -244px;
+    position: fixed;
+    top: 0; /* Define a posição inicial do menu no topo da tela */
+    left: 0;
     width: 244px;
     height: 1400px;
     background-color: white;
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
 
 }
+
 .menuTitle{
     height: 70px;
     background: linear-gradient(to top, #ef7e3c, #feaf52);
@@ -160,14 +163,14 @@ input {
     font-size: 22px;
 }
 .cont img{
-    width: 800px;
+    width: 1000px;
     left: 300px;
     top: 50px;
     border-radius: 5px;
 }
 .icons{
-    left: 1190px;
-    top: -480px;
+    left: 1540px;
+    top: -585px;
     color: white;
 }
 .icons img{
@@ -215,18 +218,18 @@ input {
 }
 .writ p{
     color: #ef7e3c;
-    font-size: 20px;
+    font-size: 18px;
     top: -75px;
-    left: -7px;
+    left: 2px;
 }
 .box{
     color: rgb(70, 65, 65);
 
     width: 320px;
-    height: 440px;
+    height: 555px;
     border: 2px solid gray;
-    left: 1150px;
-    top: -545px;
+    left: 1470px;
+    top: -650px;
 }
 .boxTitle{
     width:317px;
@@ -243,25 +246,28 @@ input {
     top: 15px;
     left: 15px;
     list-style-type: none;
+    font-size: 17px;
 }
 .aut ul li{
-    font-size: 20px;
+    font-size: 22px;
     top: 35px;
-    left: 15px;
+    left: 10px;
     list-style-type: none;
+    margin: 5px;
 }
 .name li{
     top: 40px;
 }
 .univers ul li{
-    top: 65px;
-    left: 15px;
+    top: 67px;
+    left: 10px;
     list-style-type: none;
 
 }
 .univers ul li p{
     color: rgb(150, 150, 150);
     font-size: 15px;
+    margin: 5px;
 }
 .bar{
     width: 170px;
@@ -270,7 +276,7 @@ input {
     background-color: grey;
     rotate: 90deg;
     left: 225px;
-    top: -225px;
+    top: -285px;
 }
 .barg{
     width: 250px;
@@ -282,3 +288,55 @@ input {
     z-index: -1;
     top: -85px;
 }
+.textBox{
+    top: -600px;
+    left: 300px;
+    width:1000px;
+    height: 160px;
+    border: 2px solid #ffe7c7;
+}
+.textTitle{
+    left: -2px;
+    width: 1000px;
+    background-color: #e9c79b;
+    height: 50px;
+    border-bottom: 2px solid #ffe7c7;
+}
+.textTitle h1{
+    font-size: 25px;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.text{
+    left: 13px;
+    top: -20px;
+    margin-top: 35px;
+    max-height: 90px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.4s ease;
+}
+
+
+#overflow{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+}
+
+
+.toggle{
+    background: transparent;
+    border: none;
+    left: 280px;
+    top: 90px;
+    font-size: 16px;
+    color: orange;
+    cursor: pointer;
+}
+

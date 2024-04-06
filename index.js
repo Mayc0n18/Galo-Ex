@@ -16,6 +16,7 @@ $(document).ready(function() {
 });
 $(document).ready(function(){
   $('.topic').click(function(){
+    $('.discBar').hide();
     $('.subDisc').hide();
     $('.pass').show();
   })
@@ -24,8 +25,18 @@ $(document).ready(function(){
   $('.send').click(function(){
     $('.pass').hide();
     $('.last').show();
+    $('.comentI').show();
+    $('.discBar').show();
     $('.discBar').css({
-      'top':'-35px'
+      'top':'55px',
+      'left': '50px'
     });
   })
+})
+$(document).ready(function(){
+  $('.create').click(function(){
+    $('.last').hide();
+    $('.pass').show();
+  })
+ 
 })

@@ -20,6 +20,9 @@ $(document).ready(function () {
     $('.discBar').hide();
     $('.subDisc').hide();
     $('.pass').show();
+    $("#overflow").css('display', 'none');
+    $('.textBox').css('height', '');
+    $('.toggle').toggle();
     $('.disc').css({
       'height':'960px'
     }) 
@@ -30,6 +33,9 @@ $(document).ready(function () {
     $('.pass').hide();
     $('.last').show();
     $('.comentI').show();
+    $("#overflow").css('display', 'none');
+    $('.textBox').css('height', '');
+    $('.toggle').toggle();
     $('.discBar').show();
     $('.discBar').css({
       'top': '55px',
@@ -46,6 +52,9 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.create').click(function () {
     $('.comentI').hide();
+    $("#overflow").css('display', 'none');
+    $('.textBox').css('height', '');
+    $('.toggle').toggle();
     $('.last').hide();
     $('.pass').show();
   })
@@ -82,4 +91,26 @@ $(document).ready(function () {
     $('.coment2 ul li p').text('1 like 1 resposta');
     
   })
+});
+
+$(document).ready(function() {
+  // Função para tratar o clique em .topic
+  $('.topic').on('click', function() {
+      // Desabilita o clique em .coment2
+      $('.coment2').off('click');
+      // Adiciona uma classe para indicar que .topic foi clicado
+      $(this).addClass('topic-clicked');
+  });
+
+  // Função para tratar o clique em .coment2
+  $('.coment2').on('click', function() {
+      // Verifica se .topic foi clicado
+      if($('.topic').hasClass('topic-clicked')) {
+          // Se .topic foi clicado, não faz nada em .coment2
+          return false;
+      } else {
+          // Caso contrário, executa a ação normal de .coment2
+          // Coloque o código da ação aqui
+      }
+  });
 });

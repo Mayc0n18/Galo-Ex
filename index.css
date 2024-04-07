@@ -383,14 +383,16 @@ input {
     cursor: pointer;
 }
 
+
 .disc {
     bottom: 550px;
     left: 300px;
     width: 1000px;
-    height: 880px;
+    height: 850px;
     border-top: 2px solid #ffe7c7;
     border-left: 2px solid #ffe7c7;
     border-right: 2px solid #ffe7c7;
+    border-bottom: 2px solid #ffe7c7;
 
 }
 

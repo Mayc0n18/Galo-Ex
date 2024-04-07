@@ -172,15 +172,15 @@ input {
 }
 
 .cont p {
-    left: 560px;
+    left: 310px;
     top: 23px;
     color: #ef7e3c;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .cont img {
-    width: 1000px;
-    left: 555px;
+    width: 995px;
+    left: 305px;
     top: 50px;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -188,7 +188,7 @@ input {
 
 .icons {
     left: 1540px;
-    top: -585px;
+    top: -625px;
     color: white;
 }
 
@@ -256,11 +256,11 @@ input {
     height: 555px;
     border: 2px solid gray;
     left: 1470px;
-    top: -650px;
+    top: -675px;
 }
 
 .boxTitle {
-    width: 317px;
+    width: 316px;
     height: 50px;
     border-bottom: 2px solid gray;
     background-color: #ffebd0;
@@ -703,7 +703,8 @@ input {
     top: 8px;
     font-weight: 400;
 }
-.comentI{
+
+.comentI {
     display: none;
     margin-bottom: 25px;
 }
@@ -723,6 +724,32 @@ input {
     color: rgb(71, 71, 71);
     font-size: 15px;
 }
-.comentI p{
+
+.comentI p {
     left: 25px;
+}
+.comentI.blur {
+    filter: blur(5px); /* ajuste o valor do desfoque conforme desejado */
+}
+
+.desf {
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    left: 200px;
+    top: 400px;
+    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo com transparência */
+    backdrop-filter: blur(10px); /* Aplica um desfoque */
+}
+
+.ans{
+    display: none;
+}
+.resp1, .resp2, .resp3, .resp4, .resp5{
+
+    left: 25px;
+    margin: 25px;
+}
+.resp1{
+    margin-top: 45px;
 }

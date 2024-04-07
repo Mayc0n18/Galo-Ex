@@ -754,3 +754,36 @@ input {
 .resp1{
     margin-top: 20px;
 }
+.bott img{
+    width: 240px;
+    bottom: 450px;
+    left: 280px;
+}
+.lesBar{
+    width: 1050px;
+    left: 270px;
+    top: -480px;
+    border:#bcab94 solid 0.05px;
+}
+.bott p{
+    left: 550px;
+    font-size: 18px;
+    top: -545px;
+}
+.know{
+    width: 240px;
+    height: 40px;
+    left: 280px;
+    bottom: 530px;
+    border: rgb(110, 0, 110) solid;
+    background-color:rgb(110, 0, 110) ;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.know p {
+    left: 0px;
+    top: 5px;
+    color: white;
+    font-size: 20px;
+}

@@ -20,6 +20,9 @@ $(document).ready(function () {
     $('.discBar').hide();
     $('.subDisc').hide();
     $('.pass').show();
+    $('.disc').css({
+      'height':'960px'
+    }) 
   })
 })
 $(document).ready(function () {
@@ -32,6 +35,10 @@ $(document).ready(function () {
       'top': '55px',
       'left': '50px'
     });
+    $('.disc').css({
+      'height':'990px'
+    })  
+  
     $('.comentI').addClass('blur');
 
   })
@@ -55,10 +62,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   var originalText = $('.coment2 ul li p').text();
-  var originalDiscStyles = {
-    'height': $('.disc').css('height'),
-    'border-bottom': $('.disc').css('border-bottom')
-  };
+ 
   $('.coment2').click(function () {
     if ($('.coment2 ul li p').text() === originalText) {
       $('.coment2 ul li p').text("5 like 5 resposta");
@@ -71,6 +75,10 @@ $(document).ready(function () {
     })
   });
   $('.ans').click(function () {
+    $('.disc').css({
+    'height': '850px'
+
+    })
     $('.coment2 ul li p').text('1 like 1 resposta');
     
   })
